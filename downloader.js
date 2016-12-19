@@ -27,7 +27,8 @@ var image_list = $("#image_list");
 function get_link() {
     page_number = Number.parseInt(_page.html());
     category_number = _category.html();
-    for (var i = 0; i <= 4; i++) {
+    $(document).attr("title", _name.val());
+    for (var i = 0; i <= page_number; i++) {
         var url="http://box.hentaibox.net/manga/"+category_number+"/"+_name.val()+"/0"+i+"/0.jpg";
         ele = $("<img/>");
         ele.attr("src",url);
