@@ -4,32 +4,16 @@
  * and open the template in the editor.
  */
 
-var _page = $("#page");
-var _category = $("#cate");
+var _page = $("#page_number");
 var _name = $("#real_name");
-var link_input = $("#link_input");
-link_input.on("input", function () {
-    text = link_input.val().trim();
-    index = 0;
-    for (i = 0; i < 4; i++) {
-        index = text.indexOf("/", index + 1);
-    }
-    _page.html(text.substring(index + 1, text.indexOf("_", index + 1)));
-    index = text.indexOf("_", index + 1);
-    _category.html(text.substring(index + 1, text.indexOf("_", index + 1)));
-    index = text.indexOf("_", index + 1);
+var id_input = $("#id_input");
 
-    name_text = text.substring(index + 1, text.length);
-
-    _name.val(name_text);
-});
 var image_list = $("#image_list");
 function get_link() {
     page_number = Number.parseInt(_page.html());
-    category_number = _category.html();
     $(document).attr("title", _name.val());
     for (var i = 0; i <= page_number; i++) {
-        var url="http://box.hentaibox.net/manga/"+category_number+"/"+_name.val()+"/0"+i+"/0.jpg";
+        var url="https://i.nhentai.net/galleries/"+id_input.val()+"/"+i+".jpg";
         ele = $("<img/>");
         ele.attr("src",url);
         image_list.append(ele);
