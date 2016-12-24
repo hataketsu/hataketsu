@@ -10,7 +10,7 @@ var id_input = $("#id_input");
 
 var image_list = $("#image_list");
 function get_link() {
-    page_number = Number.parseInt(_page.html());
+    page_number = Number.parseInt(_page.val());
     $(document).attr("title", _name.val());
     for (var i = 0; i <= page_number; i++) {
         var url="https://i.nhentai.net/galleries/"+id_input.val()+"/"+i+".jpg";
