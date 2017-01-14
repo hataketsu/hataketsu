@@ -35,3 +35,16 @@ function get_link() {
         image_list.append(ele);
     }
 }
+text = link_input.val().trim();
+    index = 0;
+    for (i = 0; i < 4; i++) {
+        index = text.indexOf("/", index + 1);
+    }
+    _page.html(text.substring(index + 1, text.indexOf("_", index + 1)));
+    index = text.indexOf("_", index + 1);
+    _category.html(text.substring(index + 1, text.indexOf("_", index + 1)));
+    index = text.indexOf("_", index + 1);
+
+    name_text = text.substring(index + 1, text.length);
+
+    _name.val(name_text);
