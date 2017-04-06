@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hacking on Blog cá nhân</title>
+    <link>https://hataketsu.github.io/tags/hacking/index.xml</link>
+    <description>Recent content in Hacking on Blog cá nhân</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <atom:link href="https://hataketsu.github.io/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sử dụng Arduino như usb to com.</title>
+      <link>https://hataketsu.github.io/usbcom/</link>
+      <pubDate>Fri, 07 Apr 2017 01:05:04 +0000</pubDate>
+      
+      <guid>https://hataketsu.github.io/usbcom/</guid>
+      <description>&lt;p&gt;Nếu mua một board arduino về mà chỉ để nạp mấy cái example rồi ngắm nó chạy thôi thì thật là phí phải không. Nhân tiện vừa rồi tôi có 1 KIT phát triển 8051 V3 có 1 cổng COM, muốn thử cho giao tiếp với máy tính mà lap thì lại không có cổng COM. Không lẽ lại phải mua 1 cái usb to com để làm viêc này? Có 45.000 VND thôi nhưng thế không thử thách. Lúc đầu tôi định nghiên cứu giao thức một cách đầy đủ rồi triển khai trên arduino để giả lập usb to com nhưng thấy hardcore quá nên bỏ =)) . Chợt nghĩ lại, thằng arduino này nó nạp chương trình qua USB mà, thế thì tất nhiên là phải có cầu chuyển rồi. Nhìn lại phát nữa thì nhớ ra con FT232 của nó. Xong, bắt tay vào thử ngay.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://hataketsu.files.wordpress.com/2015/06/arduinodiecimilacomponents.jpg?w=549&#34; alt=&#34;ArduinoDiecimilaComponents&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;USART thì chỉ cần 1 cặp TX, RX và GND. Và TX RX thì nằm ngay ở chân digital 0,1 của arduino. Đấu chung chân GND nữa là xong. Thử nghiệm chay thành công tốt đẹp 😀&lt;/p&gt;
+
+&lt;p&gt;Vì đôi khi trong arduino bạn đã nạp chương trình có sử dụng Serial để giao tiếp với máy tính nên sẽ xảy ra tranh chấp với thiết bị bạn muốn kết nối nên để chắc ăn hãy nối chân RESET vào GND, arduino sẽ không khởi chạy chương trình của nó.&lt;/p&gt;
+
+&lt;p&gt;Tiết kiệm 45k :))&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

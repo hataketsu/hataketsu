@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hardware on Blog cá nhân</title>
+    <link>https://hataketsu.github.io/tags/hardware/index.xml</link>
+    <description>Recent content in Hardware on Blog cá nhân</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <atom:link href="https://hataketsu.github.io/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Mua laptop</title>
+      <link>https://hataketsu.github.io/laptop/</link>
+      <pubDate>Fri, 07 Apr 2017 01:05:04 +0000</pubDate>
+      
+      <guid>https://hataketsu.github.io/laptop/</guid>
+      <description>
+
+&lt;p&gt;Sau nhiều năm cấm đoán mình sử dụng máy tính với lý do sợ tôi bỏ bê học hành, cuối cùng thì hai bậc phụ huynh đáng kính cũng gỡ bỏ cấm vận và cấp vốn cho đầu tư một chiếc laptop. Trong tầm giá duới 7 củ thì HP 8460p cũ có vẻ là một lựa chọn hợp lý. Ở chỗ bán có cả T420, dòng Dell cũng nồi đồng cối đá nhưng sờ cái lưng bằng nhung của nó ghê tay nên bỏ.&lt;/p&gt;
+
+&lt;h3 id=&#34;cấu-hình&#34;&gt;Cấu hình:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CPU: i5 2520M, benchmark đạt 3500, đỉnh của i5 đời 2 nên khá khỏe bù lại ăn điện hơi nhiều, max tận 35W.&lt;/li&gt;
+&lt;li&gt;RAM: 4G DDR3. Xài thả phanh.&lt;/li&gt;
+&lt;li&gt;HDD: 320GB 7200rpm.&lt;/li&gt;
+&lt;li&gt;Ngoại hình ổn, hơi móp tí góc không sao.&lt;/li&gt;
+&lt;li&gt;Card màn hình: Onboard Intel HD 3000 , hơi hối hận vì coi thường vụ này, thành ra cuối cùng hầu như không chơi được game 3D hay như CoD, L4D. Thử CF, LOL vẫn được nhưng cấu hình thấp không vẫn giật. Riêng CS11 thì nhìn ảo diệu kinh khủng, gần ói, nói chung là không chơi nổi. Cũng tốt, không chơi game nữa.&lt;/li&gt;
+&lt;li&gt;Wireless: Intel Centrino 6300 Ultimate. Hơi dính phốt tiếp. Nó không có Bluetooth, cũng không phát được wifi, bắt thì khỏe. Ai đi mua nhớ test cái này.&lt;/li&gt;
+&lt;li&gt;Cổng: 2 cổng usb 3.0 ( vẫn cắm được 2.0), 1 cổng 2.0 combo SATA, 1 cổng 2.0 riêng. Có Display port thay vì HDMI(lại tốn $ mua converter rồi :/ ) . Phía sau là VGA và Ethernet. Thậm chí còn có cả dial up 56kps từ thời tối cổ.&lt;/li&gt;
+&lt;li&gt;Others: Dưới mông em nó có thể cắm dock để mở rộng thêm một đống cổng và cắm thêm pin phụ, bên hông trái có hốc để nhét ExpressCard.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bình-loạn&#34;&gt;Bình loạn:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Khá hài lòng về hiệu suất làm việc của nó, chạy rất mát, phím êm nảy.
+Vỏ nhôm mát lạnh, bóng bẩy khó xước nhưng hãy cẩn thận: vì tin tưởng vào độ bền (nghe đồn rớt 30 inches không chết) nên tôi cũng không tiếc tay cho đến khi nó phang nhẹ vào cạnh tủ nhôm và móp mất một ô bằng hạt gạo.&lt;/li&gt;
+&lt;li&gt;Có cảm biến vân tay mà vẫn chưa biết dùng như thế nào.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;kết-luận&#34;&gt;Kết luận:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Phù hợp dân văn phòng.&lt;/li&gt;
+&lt;li&gt;Trang nhã, nam tính.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

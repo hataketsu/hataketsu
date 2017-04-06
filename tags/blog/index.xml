@@ -9,6 +9,24 @@
     <atom:link href="https://hataketsu.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Một số mẹo nhỏ với PHP hay lập trình web nói chung</title>
+      <link>https://hataketsu.github.io/phptip/</link>
+      <pubDate>Fri, 07 Apr 2017 03:28:04 +0000</pubDate>
+      
+      <guid>https://hataketsu.github.io/phptip/</guid>
+      <description>
+
+&lt;p&gt;Tổng hơp một số mẹo hại não thu được trong quá trình làm web&lt;/p&gt;
+
+&lt;h3 id=&#34;dùng-sqlite-làm-database&#34;&gt;Dùng SQLite làm database&lt;/h3&gt;
+
+&lt;p&gt;Nghe có vẻ buốn cười, nhưng thực sự nó rất hiệu quả khi làm RAD (Rapid application development) vì database chỉ là 1 file nằm trong dự án php, khi triển khai hoàn toàn không cần thiết lập, cài đặt mysql. Nhưng ác mộng là khi migrate sang MySQL vì 2 bên không tương thích cú pháp với nhau, khả năng cao bạn sẽ phải viết lại hoàn toàn =_=&lt;/p&gt;
+
+&lt;h3 id=&#34;dùng-ide-hay-text-editor&#34;&gt;Dùng IDE hay Text Editor&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Nhà mới với Hugo!</title>
       <link>https://hataketsu.github.io/hugo/</link>
       <pubDate>Fri, 07 Apr 2017 01:05:04 +0000</pubDate>

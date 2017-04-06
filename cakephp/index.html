@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+    <base href="/">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="author" content="Hùng Anh Trịnh">
+
+<meta name="description" content="">
+
+<title>Một thoáng CakePHP</title>
+<meta name="generator" content="Hugo 0.19" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/pojoaque.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet" type="text/css">
+<link  href="https://hataketsu.github.io/css/theme.min.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="page-container container-fluid">
+<div class="col-md-3 menu">
+    <nav class="col-md-3">
+    <h3 class="home-link"><a href="/">Root</a></h3>
+    <div id="last-posts" class="open">
+        <h3 data-open="last-posts">Blog cá nhân - Most recent posts</h3>
+        <ul>
+            
+            <li><a href="https://hataketsu.github.io/phptip/">Một số mẹo nhỏ với PHP hay lập trình web nói chung</a></li>
+            
+            <li><a href="https://hataketsu.github.io/laptop/">Mua laptop</a></li>
+            
+            <li><a href="https://hataketsu.github.io/cakephp/">Một thoáng CakePHP</a></li>
+            
+            <li><a href="https://hataketsu.github.io/hugo/">Nhà mới với Hugo!</a></li>
+            
+            <li><a href="https://hataketsu.github.io/usbcom/">Sử dụng Arduino như usb to com.</a></li>
+            
+            <li><a href="https://hataketsu.github.io/tags/arduino/">Arduino</a></li>
+            
+            <li><a href="https://hataketsu.github.io/tags/blog/">Blog</a></li>
+            
+            <li><a href="https://hataketsu.github.io/">Blog cá nhân</a></li>
+            
+            <li><a href="https://hataketsu.github.io/tags/cake/">Cake</a></li>
+            
+            <li><a href="https://hataketsu.github.io/categories/">Categories</a></li>
+            
+        </ul>
+    </div>
+
+    
+    <div id="tags" class="open">
+        <h3 data-open="tags">Tags</h3>
+        <ul class="tags">
+            
+            <li><a href="/tags/arduino">arduino</a></li>
+            
+            <li><a href="/tags/blog">blog</a></li>
+            
+            <li><a href="/tags/cake">cake</a></li>
+            
+            <li><a href="/tags/hacking">hacking</a></li>
+            
+            <li><a href="/tags/hardware">hardware</a></li>
+            
+            <li><a href="/tags/hugo">hugo</a></li>
+            
+            <li><a href="/tags/php">php</a></li>
+            
+        </ul>
+    </div>
+    
+
+    
+    <div id="categories" class="open">
+        <h3 data-open="categories">Categories</h3>
+        <ul class="categories">
+            
+            <li><a href="/categories/programming">programming</a></li>
+            
+        </ul>
+    </div>
+    
+</nav>
+
+</div>
+<div class="col-md-9 content">
+
+<h1>Một thoáng CakePHP</h1>
+<h4>Published 04-07-2017 01:05:04</h4>
+
+<article>
+    <p><img src="https://i2.wp.com/whatswhat.no/wp-content/uploads/Fremhevet_cakephp2.jpg" alt="" /></p>
+
+<p>Từ trước tới giờ tôi chưa làm 1 cái web nào cho nghiêm chỉnh cả, phần vì tự nghĩ mình dốt design, làm sao làm ra cái gì đẹp đươc nên chỉ làm mấy cái trang có UI cơ bản để phục vụ nhu cầu upload, làm service cho ứng dụng mobile. Phần back-end thì cũng dùng PHP là chính, mà toàn viết từ scratch lên nên khá mệt.</p>
+
+<p>Một hôm có phi vụ làm web, một trang quản lý nho nhỏ thôi, chỉ 2 hôm là xong, bốc đại css của 1 trang nào đó về ghép ghép lại, viết php xử lý request thôi. Nhưng sau khi viết xong tôi mới thấy mình viết khá nhiều mà không năng suất, loanh quanh xử lý logging in, validating rồi thì thao tác với mysql mà thôi. Đi hỏi ý kiến 1 bậc đàn anh và ổng giới thiệu cho mình CakePHP. Và chỉ nghịch nghịch nó một lát mà mình đã thích mê 😀</p>
+
+<p>Đại khái CakePhp là 1 framework dựa trên MVC, cái khái niệm này khá cơ bản khỏi phải nhắc đến. CakePHP giúp chúng ta làm việc nhanh hơn rất nhiều, cung cấp cho ta một bộ khung nên chuẩn để làm việc, mã nguồn sẽ dễ bảo trì hơn nhờ tính module và không trộn lẫn mã php với html như tôi vẫn làm (Tôi gọi kiểu đó là dùng chân tay quá mức). Tuy nó khá cơ bản nhưng có vẻ khá ít tài liệu khiến tôi khá lúng túng khi làm quen. Ebook thì hơi out-date, chỉ có 1 bản guide trên trang chủ là dành cho bản 3.x.x còn đâu toàn 2.x.x mà 2 cái này khác nhau khá nhiều, đặc biệt là phần config và triển khai.</p>
+
+<p>Đầu tiên là tải nó về từ github, giải nén ra thư mục nào đó mà bạn có quyền truy cập. Tôi dùng Linux nên thường xả vào ~/workspace/<tên dự án> rồi liên kết nó tới /srv/http/ . Làm vậy đỡ bị dính mấy lằng nhằng về permission khi tạo trực tiếp trong /srv/http, tôi chưa làm web thực thụ và cũng không giỏi lắm về system admin nên bạn đừng cười =)) . Giờ thì chmod cho tmp và logs của nó 775, nếu không nó không log được đâu.</p>
+
+<p>Cấu hình cơ sở dữ liệu: Mặc định của nó là mysql, đôi khi ta cần enable một vài module trong php.ini như pdo, intl, mysql để nó làm việc được. Chỉnh file config/app.php tại phần Datasource để phù hợp với cấu hình của bạn, dễ thôi, của tôi trông thế này:</p>
+
+<pre><code class="language-php">
+'Datasources' =&gt; [
+'default' =&gt; [
+'className' =&gt; 'Cake\Database\Connection',
+'driver' =&gt; 'Cake\Database\Driver\Mysql',
+
+'persistent' =&gt; false,
+'host' =&gt; 'localhost',
+/**
+* CakePHP will use the default DB port based on the driver selected
+* MySQL on MAMP uses port 8889, MAMP users will want to uncomment
+* the following line and set the port accordingly
+*/
+// 'port' =&gt; '3306',
+'username' =&gt; 'root',
+'password' =&gt; '',
+'database' =&gt; 'cake_bookmarks',
+'encoding' =&gt; 'utf8',
+'timezone' =&gt; 'UTC',
+'cacheMetadata' =&gt; true,
+
+/**
+* Set identifier quoting to true if you are using reserved words or
+* special characters in your table or column names. Enabling this
+* setting will result in queries built using the Query Builder having
+* identifiers quoted when creating SQL. It should be noted that this
+* decreases performance because each query needs to be traversed and
+* manipulated before being executed.
+*/
+'quoteIdentifiers' =&gt; false,
+
+/**
+* During development, if using MySQL &lt; 5.6, uncommenting the
+* following line could boost the speed at which schema metadata is
+* fetched from the database. It can also be set directly with the
+* mysql configuration directive 'innodb_stats_on_metadata = 0'
+* which is the recommended value in production environments
+*/
+//'init' =&gt; ['SET GLOBAL innodb_stats_on_metadata = 0'],
+]
+</code></pre>
+
+<p>Tôi không khuyến khích việc sử dụng acc root, nhưng làm trên máy cá nhân thì không vấn đề gì lắm. Lúc này nếu cấu hình apache rồi thì ta có thể truy cập thông qua localhost/&lt;đường dẫn&gt; và thấy được text nhưng trông khá xấu xí. Đó là do đường dẫn chưa được cấu hình đúng đắn. Giờ mở 1 cái terminal, cd tới thư mục của dự án và lệnh ./bin/cake server . Lệnh này khởi động server, nó sẽ in ra điạ chỉ cho ta truy cập và liên tục hiển thị 1 cái log để ta theo dõi các tài nguyên được truy xuất. Với tôi, địa chỉ là localhost:8765 . Giờ truy cập vào, nếu tất cả ô test đều được đánh dấu tick OK thì tức là ổn rồi đó. Giờ hãy bắt đầu với cuốn guide trên trang chủ nhé.</p>
+
+</article>
+
+
+
+</div>
+</div>
+<script src="js/theme.min.js" type="text/javascript"></script>
+
+
+</body>
+</html>
+

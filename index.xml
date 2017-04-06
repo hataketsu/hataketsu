@@ -6,8 +6,130 @@
     <description>Recent content on Blog cá nhân</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 07 Apr 2017 01:05:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Apr 2017 03:28:04 +0000</lastBuildDate>
     <atom:link href="https://hataketsu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Một số mẹo nhỏ với PHP hay lập trình web nói chung</title>
+      <link>https://hataketsu.github.io/phptip/</link>
+      <pubDate>Fri, 07 Apr 2017 03:28:04 +0000</pubDate>
+      
+      <guid>https://hataketsu.github.io/phptip/</guid>
+      <description>
+
+&lt;p&gt;Tổng hơp một số mẹo hại não thu được trong quá trình làm web&lt;/p&gt;
+
+&lt;h3 id=&#34;dùng-sqlite-làm-database&#34;&gt;Dùng SQLite làm database&lt;/h3&gt;
+
+&lt;p&gt;Nghe có vẻ buốn cười, nhưng thực sự nó rất hiệu quả khi làm RAD (Rapid application development) vì database chỉ là 1 file nằm trong dự án php, khi triển khai hoàn toàn không cần thiết lập, cài đặt mysql. Nhưng ác mộng là khi migrate sang MySQL vì 2 bên không tương thích cú pháp với nhau, khả năng cao bạn sẽ phải viết lại hoàn toàn =_=&lt;/p&gt;
+
+&lt;h3 id=&#34;dùng-ide-hay-text-editor&#34;&gt;Dùng IDE hay Text Editor&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mua laptop</title>
+      <link>https://hataketsu.github.io/laptop/</link>
+      <pubDate>Fri, 07 Apr 2017 01:05:04 +0000</pubDate>
+      
+      <guid>https://hataketsu.github.io/laptop/</guid>
+      <description>
+
+&lt;p&gt;Sau nhiều năm cấm đoán mình sử dụng máy tính với lý do sợ tôi bỏ bê học hành, cuối cùng thì hai bậc phụ huynh đáng kính cũng gỡ bỏ cấm vận và cấp vốn cho đầu tư một chiếc laptop. Trong tầm giá duới 7 củ thì HP 8460p cũ có vẻ là một lựa chọn hợp lý. Ở chỗ bán có cả T420, dòng Dell cũng nồi đồng cối đá nhưng sờ cái lưng bằng nhung của nó ghê tay nên bỏ.&lt;/p&gt;
+
+&lt;h3 id=&#34;cấu-hình&#34;&gt;Cấu hình:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CPU: i5 2520M, benchmark đạt 3500, đỉnh của i5 đời 2 nên khá khỏe bù lại ăn điện hơi nhiều, max tận 35W.&lt;/li&gt;
+&lt;li&gt;RAM: 4G DDR3. Xài thả phanh.&lt;/li&gt;
+&lt;li&gt;HDD: 320GB 7200rpm.&lt;/li&gt;
+&lt;li&gt;Ngoại hình ổn, hơi móp tí góc không sao.&lt;/li&gt;
+&lt;li&gt;Card màn hình: Onboard Intel HD 3000 , hơi hối hận vì coi thường vụ này, thành ra cuối cùng hầu như không chơi được game 3D hay như CoD, L4D. Thử CF, LOL vẫn được nhưng cấu hình thấp không vẫn giật. Riêng CS11 thì nhìn ảo diệu kinh khủng, gần ói, nói chung là không chơi nổi. Cũng tốt, không chơi game nữa.&lt;/li&gt;
+&lt;li&gt;Wireless: Intel Centrino 6300 Ultimate. Hơi dính phốt tiếp. Nó không có Bluetooth, cũng không phát được wifi, bắt thì khỏe. Ai đi mua nhớ test cái này.&lt;/li&gt;
+&lt;li&gt;Cổng: 2 cổng usb 3.0 ( vẫn cắm được 2.0), 1 cổng 2.0 combo SATA, 1 cổng 2.0 riêng. Có Display port thay vì HDMI(lại tốn $ mua converter rồi :/ ) . Phía sau là VGA và Ethernet. Thậm chí còn có cả dial up 56kps từ thời tối cổ.&lt;/li&gt;
+&lt;li&gt;Others: Dưới mông em nó có thể cắm dock để mở rộng thêm một đống cổng và cắm thêm pin phụ, bên hông trái có hốc để nhét ExpressCard.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;bình-loạn&#34;&gt;Bình loạn:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Khá hài lòng về hiệu suất làm việc của nó, chạy rất mát, phím êm nảy.
+Vỏ nhôm mát lạnh, bóng bẩy khó xước nhưng hãy cẩn thận: vì tin tưởng vào độ bền (nghe đồn rớt 30 inches không chết) nên tôi cũng không tiếc tay cho đến khi nó phang nhẹ vào cạnh tủ nhôm và móp mất một ô bằng hạt gạo.&lt;/li&gt;
+&lt;li&gt;Có cảm biến vân tay mà vẫn chưa biết dùng như thế nào.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;kết-luận&#34;&gt;Kết luận:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Phù hợp dân văn phòng.&lt;/li&gt;
+&lt;li&gt;Trang nhã, nam tính.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Một thoáng CakePHP</title>
+      <link>https://hataketsu.github.io/cakephp/</link>
+      <pubDate>Fri, 07 Apr 2017 01:05:04 +0000</pubDate>
+      
+      <guid>https://hataketsu.github.io/cakephp/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://i2.wp.com/whatswhat.no/wp-content/uploads/Fremhevet_cakephp2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Từ trước tới giờ tôi chưa làm 1 cái web nào cho nghiêm chỉnh cả, phần vì tự nghĩ mình dốt design, làm sao làm ra cái gì đẹp đươc nên chỉ làm mấy cái trang có UI cơ bản để phục vụ nhu cầu upload, làm service cho ứng dụng mobile. Phần back-end thì cũng dùng PHP là chính, mà toàn viết từ scratch lên nên khá mệt.&lt;/p&gt;
+
+&lt;p&gt;Một hôm có phi vụ làm web, một trang quản lý nho nhỏ thôi, chỉ 2 hôm là xong, bốc đại css của 1 trang nào đó về ghép ghép lại, viết php xử lý request thôi. Nhưng sau khi viết xong tôi mới thấy mình viết khá nhiều mà không năng suất, loanh quanh xử lý logging in, validating rồi thì thao tác với mysql mà thôi. Đi hỏi ý kiến 1 bậc đàn anh và ổng giới thiệu cho mình CakePHP. Và chỉ nghịch nghịch nó một lát mà mình đã thích mê 😀&lt;/p&gt;
+
+&lt;p&gt;Đại khái CakePhp là 1 framework dựa trên MVC, cái khái niệm này khá cơ bản khỏi phải nhắc đến. CakePHP giúp chúng ta làm việc nhanh hơn rất nhiều, cung cấp cho ta một bộ khung nên chuẩn để làm việc, mã nguồn sẽ dễ bảo trì hơn nhờ tính module và không trộn lẫn mã php với html như tôi vẫn làm (Tôi gọi kiểu đó là dùng chân tay quá mức). Tuy nó khá cơ bản nhưng có vẻ khá ít tài liệu khiến tôi khá lúng túng khi làm quen. Ebook thì hơi out-date, chỉ có 1 bản guide trên trang chủ là dành cho bản 3.x.x còn đâu toàn 2.x.x mà 2 cái này khác nhau khá nhiều, đặc biệt là phần config và triển khai.&lt;/p&gt;
+
+&lt;p&gt;Đầu tiên là tải nó về từ github, giải nén ra thư mục nào đó mà bạn có quyền truy cập. Tôi dùng Linux nên thường xả vào ~/workspace/&lt;tên dự án&gt; rồi liên kết nó tới /srv/http/ . Làm vậy đỡ bị dính mấy lằng nhằng về permission khi tạo trực tiếp trong /srv/http, tôi chưa làm web thực thụ và cũng không giỏi lắm về system admin nên bạn đừng cười =)) . Giờ thì chmod cho tmp và logs của nó 775, nếu không nó không log được đâu.&lt;/p&gt;
+
+&lt;p&gt;Cấu hình cơ sở dữ liệu: Mặc định của nó là mysql, đôi khi ta cần enable một vài module trong php.ini như pdo, intl, mysql để nó làm việc được. Chỉnh file config/app.php tại phần Datasource để phù hợp với cấu hình của bạn, dễ thôi, của tôi trông thế này:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-php&#34;&gt;
+&#39;Datasources&#39; =&amp;gt; [
+&#39;default&#39; =&amp;gt; [
+&#39;className&#39; =&amp;gt; &#39;Cake\Database\Connection&#39;,
+&#39;driver&#39; =&amp;gt; &#39;Cake\Database\Driver\Mysql&#39;,
+
+&#39;persistent&#39; =&amp;gt; false,
+&#39;host&#39; =&amp;gt; &#39;localhost&#39;,
+/**
+* CakePHP will use the default DB port based on the driver selected
+* MySQL on MAMP uses port 8889, MAMP users will want to uncomment
+* the following line and set the port accordingly
+*/
+// &#39;port&#39; =&amp;gt; &#39;3306&#39;,
+&#39;username&#39; =&amp;gt; &#39;root&#39;,
+&#39;password&#39; =&amp;gt; &#39;&#39;,
+&#39;database&#39; =&amp;gt; &#39;cake_bookmarks&#39;,
+&#39;encoding&#39; =&amp;gt; &#39;utf8&#39;,
+&#39;timezone&#39; =&amp;gt; &#39;UTC&#39;,
+&#39;cacheMetadata&#39; =&amp;gt; true,
+
+/**
+* Set identifier quoting to true if you are using reserved words or
+* special characters in your table or column names. Enabling this
+* setting will result in queries built using the Query Builder having
+* identifiers quoted when creating SQL. It should be noted that this
+* decreases performance because each query needs to be traversed and
+* manipulated before being executed.
+*/
+&#39;quoteIdentifiers&#39; =&amp;gt; false,
+
+/**
+* During development, if using MySQL &amp;lt; 5.6, uncommenting the
+* following line could boost the speed at which schema metadata is
+* fetched from the database. It can also be set directly with the
+* mysql configuration directive &#39;innodb_stats_on_metadata = 0&#39;
+* which is the recommended value in production environments
+*/
+//&#39;init&#39; =&amp;gt; [&#39;SET GLOBAL innodb_stats_on_metadata = 0&#39;],
+]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Tôi không khuyến khích việc sử dụng acc root, nhưng làm trên máy cá nhân thì không vấn đề gì lắm. Lúc này nếu cấu hình apache rồi thì ta có thể truy cập thông qua localhost/&amp;lt;đường dẫn&amp;gt; và thấy được text nhưng trông khá xấu xí. Đó là do đường dẫn chưa được cấu hình đúng đắn. Giờ mở 1 cái terminal, cd tới thư mục của dự án và lệnh ./bin/cake server . Lệnh này khởi động server, nó sẽ in ra điạ chỉ cho ta truy cập và liên tục hiển thị 1 cái log để ta theo dõi các tài nguyên được truy xuất. Với tôi, địa chỉ là localhost:8765 . Giờ truy cập vào, nếu tất cả ô test đều được đánh dấu tick OK thì tức là ổn rồi đó. Giờ hãy bắt đầu với cuốn guide trên trang chủ nhé.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Nhà mới với Hugo!</title>
@@ -16,6 +138,24 @@
       
       <guid>https://hataketsu.github.io/hugo/</guid>
       <description>&lt;p&gt;Bỏ căn nhà Wordpress ù lỳ qua Github Pages dựng lều ở =)) . Từ giờ không lo về bảo mật nữa vì web chỉ toàn mã tĩnh không có chút php nào.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sử dụng Arduino như usb to com.</title>
+      <link>https://hataketsu.github.io/usbcom/</link>
+      <pubDate>Fri, 07 Apr 2017 01:05:04 +0000</pubDate>
+      
+      <guid>https://hataketsu.github.io/usbcom/</guid>
+      <description>&lt;p&gt;Nếu mua một board arduino về mà chỉ để nạp mấy cái example rồi ngắm nó chạy thôi thì thật là phí phải không. Nhân tiện vừa rồi tôi có 1 KIT phát triển 8051 V3 có 1 cổng COM, muốn thử cho giao tiếp với máy tính mà lap thì lại không có cổng COM. Không lẽ lại phải mua 1 cái usb to com để làm viêc này? Có 45.000 VND thôi nhưng thế không thử thách. Lúc đầu tôi định nghiên cứu giao thức một cách đầy đủ rồi triển khai trên arduino để giả lập usb to com nhưng thấy hardcore quá nên bỏ =)) . Chợt nghĩ lại, thằng arduino này nó nạp chương trình qua USB mà, thế thì tất nhiên là phải có cầu chuyển rồi. Nhìn lại phát nữa thì nhớ ra con FT232 của nó. Xong, bắt tay vào thử ngay.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://hataketsu.files.wordpress.com/2015/06/arduinodiecimilacomponents.jpg?w=549&#34; alt=&#34;ArduinoDiecimilaComponents&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;USART thì chỉ cần 1 cặp TX, RX và GND. Và TX RX thì nằm ngay ở chân digital 0,1 của arduino. Đấu chung chân GND nữa là xong. Thử nghiệm chay thành công tốt đẹp 😀&lt;/p&gt;
+
+&lt;p&gt;Vì đôi khi trong arduino bạn đã nạp chương trình có sử dụng Serial để giao tiếp với máy tính nên sẽ xảy ra tranh chấp với thiết bị bạn muốn kết nối nên để chắc ăn hãy nối chân RESET vào GND, arduino sẽ không khởi chạy chương trình của nó.&lt;/p&gt;
+
+&lt;p&gt;Tiết kiệm 45k :))&lt;/p&gt;
 </description>
     </item>
     

@@ -8,7 +8,7 @@
 
 <meta name="description" content="">
 
-<title>Blog cá nhân</title>
+<title>Sử dụng Arduino như usb to com.</title>
 <meta name="generator" content="Hugo 0.19" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/pojoaque.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
@@ -89,39 +89,24 @@
 </div>
 <div class="col-md-9 content">
 
+<h1>Sử dụng Arduino như usb to com.</h1>
+<h4>Published 04-07-2017 01:05:04</h4>
 
-<div class="articles-list">
-    
-    <article>
-        <h3><a href="https://hataketsu.github.io/phptip/">Một số mẹo nhỏ với PHP hay lập trình web nói chung</a> - 2017-04-07 03:28:04</h3>
-        Tổng hơp một số mẹo hại não thu được trong quá trình làm web
-Dùng SQLite làm database Nghe có vẻ buốn cười, nhưng thực sự nó rất hiệu quả khi làm RAD (Rapid application development) vì database chỉ là 1 file nằm trong dự án php, khi triển khai hoàn toàn không cần thiết lập, cài đặt mysql. Nhưng ác mộng là khi migrate sang MySQL vì 2 bên không tương thích cú pháp với nhau, khả năng cao bạn sẽ phải viết lại hoàn toàn =_=
-    </article>
-    
-    <article>
-        <h3><a href="https://hataketsu.github.io/laptop/">Mua laptop</a> - 2017-04-07 01:05:04</h3>
-        Sau nhiều năm cấm đoán mình sử dụng máy tính với lý do sợ tôi bỏ bê học hành, cuối cùng thì hai bậc phụ huynh đáng kính cũng gỡ bỏ cấm vận và cấp vốn cho đầu tư một chiếc laptop. Trong tầm giá duới 7 củ thì HP 8460p cũ có vẻ là một lựa chọn hợp lý. Ở chỗ bán có cả T420, dòng Dell cũng nồi đồng cối đá nhưng sờ cái lưng bằng nhung của nó ghê tay nên bỏ.
-    </article>
-    
-    <article>
-        <h3><a href="https://hataketsu.github.io/cakephp/">Một thoáng CakePHP</a> - 2017-04-07 01:05:04</h3>
-        Từ trước tới giờ tôi chưa làm 1 cái web nào cho nghiêm chỉnh cả, phần vì tự nghĩ mình dốt design, làm sao làm ra cái gì đẹp đươc nên chỉ làm mấy cái trang có UI cơ bản để phục vụ nhu cầu upload, làm service cho ứng dụng mobile. Phần back-end thì cũng dùng PHP là chính, mà toàn viết từ scratch lên nên khá mệt.
-Một hôm có phi vụ làm web, một trang quản lý nho nhỏ thôi, chỉ 2 hôm là xong, bốc đại css của 1 trang nào đó về ghép ghép lại, viết php xử lý request thôi.
-    </article>
-    
-    <article>
-        <h3><a href="https://hataketsu.github.io/hugo/">Nhà mới với Hugo!</a> - 2017-04-07 01:05:04</h3>
-        Bỏ căn nhà Wordpress ù lỳ qua Github Pages dựng lều ở =)) . Từ giờ không lo về bảo mật nữa vì web chỉ toàn mã tĩnh không có chút php nào.
-    </article>
-    
-    <article>
-        <h3><a href="https://hataketsu.github.io/usbcom/">Sử dụng Arduino như usb to com.</a> - 2017-04-07 01:05:04</h3>
-        Nếu mua một board arduino về mà chỉ để nạp mấy cái example rồi ngắm nó chạy thôi thì thật là phí phải không. Nhân tiện vừa rồi tôi có 1 KIT phát triển 8051 V3 có 1 cổng COM, muốn thử cho giao tiếp với máy tính mà lap thì lại không có cổng COM. Không lẽ lại phải mua 1 cái usb to com để làm viêc này? Có 45.
-    </article>
-    
-</div>
+<article>
+    <p>Nếu mua một board arduino về mà chỉ để nạp mấy cái example rồi ngắm nó chạy thôi thì thật là phí phải không. Nhân tiện vừa rồi tôi có 1 KIT phát triển 8051 V3 có 1 cổng COM, muốn thử cho giao tiếp với máy tính mà lap thì lại không có cổng COM. Không lẽ lại phải mua 1 cái usb to com để làm viêc này? Có 45.000 VND thôi nhưng thế không thử thách. Lúc đầu tôi định nghiên cứu giao thức một cách đầy đủ rồi triển khai trên arduino để giả lập usb to com nhưng thấy hardcore quá nên bỏ =)) . Chợt nghĩ lại, thằng arduino này nó nạp chương trình qua USB mà, thế thì tất nhiên là phải có cầu chuyển rồi. Nhìn lại phát nữa thì nhớ ra con FT232 của nó. Xong, bắt tay vào thử ngay.</p>
 
-    
+<p><img src="https://hataketsu.files.wordpress.com/2015/06/arduinodiecimilacomponents.jpg?w=549" alt="ArduinoDiecimilaComponents" /></p>
+
+<p>USART thì chỉ cần 1 cặp TX, RX và GND. Và TX RX thì nằm ngay ở chân digital 0,1 của arduino. Đấu chung chân GND nữa là xong. Thử nghiệm chay thành công tốt đẹp 😀</p>
+
+<p>Vì đôi khi trong arduino bạn đã nạp chương trình có sử dụng Serial để giao tiếp với máy tính nên sẽ xảy ra tranh chấp với thiết bị bạn muốn kết nối nên để chắc ăn hãy nối chân RESET vào GND, arduino sẽ không khởi chạy chương trình của nó.</p>
+
+<p>Tiết kiệm 45k :))</p>
+
+</article>
+
+
+
 </div>
 </div>
 <script src="js/theme.min.js" type="text/javascript"></script>
