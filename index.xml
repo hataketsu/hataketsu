@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/index.xml</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>vi</language>
+    <lastBuildDate>Thu, 06 Apr 2017 18:55:27 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>helloman</title>
+      <link>http://localhost:1313/post/helloman/</link>
+      <pubDate>Thu, 06 Apr 2017 18:55:27 +0700</pubDate>
+      
+      <guid>http://localhost:1313/post/helloman/</guid>
+      <description>&lt;p&gt;Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).&lt;/p&gt;
+
+&lt;p&gt;The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the &lt;a href=&#34;https://github.com/barryclark/jekyll-now&#34;&gt;Jekyll Now repository&lt;/a&gt; on GitHub.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>You&#39;re up and running 2xx!</title>
+      <link>http://localhost:1313/happy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/happy/</guid>
+      <description>
+
+&lt;p&gt;Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+&lt;a href=&#34;http://google.com.vn&#34;&gt;http://google.com.vn&lt;/a&gt;
+&lt;b&gt;ssss&lt;/b&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;test&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;python&#34;&gt;
+import abc
+a = 5/22
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;want-to-go-home&#34;&gt;Want to go home?&lt;/h1&gt;
+
+&lt;p&gt;The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the &lt;a href=&#34;https://github.com/barryclark/jekyll-now&#34;&gt;Jekyll Now repository&lt;/a&gt; on GitHub.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
