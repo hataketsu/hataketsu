@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog cá nhân</title>
-    <link>https://hataketsu.github.io/index.xml</link>
-    <description>Recent content on Blog cá nhân</description>
+    <title>Hugo on Blog cá nhân</title>
+    <link>https://hataketsu.github.io/tags/hugo/index.xml</link>
+    <description>Recent content in Hugo on Blog cá nhân</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 07 Apr 2017 01:05:04 +0000</lastBuildDate>
-    <atom:link href="https://hataketsu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hataketsu.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Nhà mới với Hugo!</title>
