@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hataketsu.github.io/oldmessage/</loc>
+    <lastmod>2017-04-07T16:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hataketsu.github.io/khamtieuhoa/</loc>
+    <lastmod>2017-04-07T16:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hataketsu.github.io/she/</loc>
+    <lastmod>2017-04-07T15:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hataketsu.github.io/phptip/</loc>
     <lastmod>2017-04-07T03:28:04+00:00</lastmod>
   </url>
@@ -40,7 +55,7 @@
   
   <url>
     <loc>https://hataketsu.github.io/</loc>
-    <lastmod>2017-04-07T03:28:04+00:00</lastmod>
+    <lastmod>2017-04-07T16:10:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -70,6 +85,30 @@
   <url>
     <loc>https://hataketsu.github.io/tags/hugo/</loc>
     <lastmod>2017-04-07T01:05:04+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hataketsu.github.io/tags/japanese/</loc>
+    <lastmod>2017-04-07T15:58:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hataketsu.github.io/categories/love/</loc>
+    <lastmod>2017-04-07T16:10:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hataketsu.github.io/categories/medical/</loc>
+    <lastmod>2017-04-07T16:01:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hataketsu.github.io/categories/music/</loc>
+    <lastmod>2017-04-07T15:58:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
